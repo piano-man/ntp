@@ -9,7 +9,13 @@ The ntp package is an implementation of a Simple NTP (SNTP) client based on
 a remote NTP server and request information about the current time.
 
 ## Steps to install and use the package
-Use the following commands :-
+
+Make sure you have the following libraries installed :-
+```shell
+go get -u golang.org/x/net
+go get -u golang.org/x/sys
+```
+Then use the following commands :-
 ```shell
 cd $GOPATH/src
 git clone https://github.com/beevik/ntp.git
